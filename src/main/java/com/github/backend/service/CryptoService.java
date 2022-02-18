@@ -10,7 +10,7 @@ public interface CryptoService {
 	
 	public CryptoData addCrypto(CryptoData cryptoData);
 	
-	public CryptoData updateCryptoById(CryptoData cryptoData);
+	public CryptoData updateCryptoById(CryptoData cryptoData, int cryptoId);
 	
 	public boolean deleteCryptoById(int cryptoId);
 }
